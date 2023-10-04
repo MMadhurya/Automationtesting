@@ -4,6 +4,7 @@
 	
   <test thread-count="5" name="NewTest">
 	  <parameter name="u" value="https://www.hyrtutorials.com/p/add-padding-to-containers.html"/>
+	  <parameter name="Browser" value="Firefox"/>
 	 
     <classes>
       <class name="testing.NewTest"/>
