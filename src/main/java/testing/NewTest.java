@@ -25,6 +25,7 @@ public class NewTest<TakeScreenshot> {
 	WebDriver driver;
 	@Test
 	@Parameters({ "u", "Browser" })
+	// parameter are added
 
 	public void fiirsttest(String u, String Browser) throws IOException {System.out.println("Browser value"+Browser);		
 		if(Browser.equalsIgnoreCase("chrome")){
